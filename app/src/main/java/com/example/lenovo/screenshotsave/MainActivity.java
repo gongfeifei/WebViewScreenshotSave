@@ -7,7 +7,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
-import android.graphics.Picture;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -16,7 +15,6 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -35,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     private WebView mWebView;
     private static final String baiduUrl = "https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%A7%9A%E6%98%8E%E5%BD%93%E9%80%89%E7%AF%AE%E5%8D%8F%E4%B8%BB%E5%B8%AD&rsv_idx=2";
     private Bitmap bitmap;
-    private Activity context = MainActivity.this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
