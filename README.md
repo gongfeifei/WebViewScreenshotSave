@@ -1,0 +1,2 @@
+# WebViewScreenshotSave
+WebView截取整个网页图片并保存到本地相册，设置JS可执行，实现WebView中Java和JS交互，WebView优化
