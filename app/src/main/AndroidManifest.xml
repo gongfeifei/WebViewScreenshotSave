@@ -16,7 +16,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <!--避免WebView中弹出键盘遮挡住光标-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -129,6 +129,11 @@ public class MainActivity extends AppCompatActivity {
         settings.setLoadWithOverviewMode(true); //设置webview加载的页面的模式，
         // 这样可以让你的页面适应手机屏幕的分辨率，完整的显示在屏幕上，可以放大缩小
 
+        //获取当前WebView的UA
+        String ua = settings.getUserAgentString();
+        //在当前UA字符的末尾增加app的标识和版本号等信息
+        settings.setUserAgentString(ua + "APP_TAG/6.0");
+
     }
 
     @Override
