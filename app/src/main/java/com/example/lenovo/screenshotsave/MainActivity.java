@@ -134,6 +134,7 @@ public class MainActivity extends AppCompatActivity {
         //webview设置实现两个手指缩放网页
         settings.setSupportZoom(true);
         settings.setBuiltInZoomControls(true);
+        settings.setDisplayZoomControls(false); //隐藏Zoom缩放按钮
     }
 
     @Override
