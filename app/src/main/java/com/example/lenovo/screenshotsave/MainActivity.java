@@ -131,6 +131,9 @@ public class MainActivity extends AppCompatActivity {
         //在当前UA字符的末尾增加app的标识和版本号等信息
         settings.setUserAgentString(ua + "APP_TAG/6.0");
 
+        //webview设置实现两个手指缩放网页
+        settings.setSupportZoom(true);
+        settings.setBuiltInZoomControls(true);
     }
 
     @Override
